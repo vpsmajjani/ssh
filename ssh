@@ -1,0 +1,8 @@
+cat /etc/sudoers
+cat /etc/ssh/sshd_config
+cat /etc/apt/sourcelist
+cat .ssh/authkey*****
+cat ~/.ssh/id_rsa.pub
+ssh-keygen
+ssh-copy-id root@ip
+apt-cache search libssl1.1
